@@ -7,6 +7,6 @@ This will be the place for the code for MY CMS Project
 Members are:
 Wiezman Kimchi
 Josh Miller
-Mark Guszzman
+Mark Guzman
 
 //testing to update file
