@@ -1,0 +1,20 @@
+
+Overview
+For the Term Project Group 4 will be developing a content management system (CMS).  
+The CMS system we will be developed based on PHP and MySQL.
+
+Scope
+The Content Management System (CMS) project will provide a location for users to publish, edit, 
+modify, and delete text posts as well as to share content with users that are directed towards the CMS URL.  
+The CMS will be developed in PHP and run on a MySQL database.  Styling will be done with CSS stylesheets.  The MySQL Database will be hosted on a single MySQL instance.
+ 
+
+Team Composition
+Michael Boccafola – Group Facilitator
+Wiezman Kimchi – Team Lead and PHP experience
+Mark Guzman –  DB Admin / Tester
+Josh Miller –  Developer / Tester
+
+Schedule
+8pm Pacific Time - Wednesday 
+9am Pacific Time - Saturday
