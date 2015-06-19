@@ -65,6 +65,7 @@ h2 a {
 
 #headlines li {
   margin-bottom: 2em;
+    overflow: hidden;
 }
 
 .pubDate {
@@ -84,6 +85,13 @@ h2 a {
   width: 130px;
 }
 
+#headlines .articleImageThumb {
+  width: 120px;
+  float: left;
+  margin: 4px 20px 0 0;
+  border: 1px solid #00a0b0;
+}
+
 .summary {
   padding-left: 100px;
 }
@@ -92,6 +100,14 @@ h2 a {
   padding-left: 130px;
 }
 
+/* Article pages */
+ 
+#articleImageFullsize {
+  width: 250px;
+  float: left;
+  margin: 4px 20px 10px 0;
+  border: 1px solid #00a0b0;
+}
 
 /* "You are logged in..." header on admin pages */
 
@@ -127,6 +143,7 @@ form ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;    
 }
 
 form ul li {
@@ -173,6 +190,13 @@ input {
   font-size: .9em;
 }
 
+input[type="checkbox"] {
+  display: inline-block;
+  padding: 0;
+  margin: 0 0 .8em 0;
+  width: auto;
+}
+
 select {
   padding: 0;
   margin-bottom: 2.5em;
@@ -189,6 +213,23 @@ textarea {
 
 textarea#content {
   font-family: "Courier New", courier, fixed;
+}
+
+#articleImage {
+  border: 2px solid #666;
+}
+ 
+#deleteImage {
+  clear: both;
+}
+ 
+label[for="deleteImage"] {
+  float: none;
+  display: inline;
+}
+ 
+input[type="file"] {
+  float: left;
 }
   
 
